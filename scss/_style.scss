@@ -1,0 +1,50 @@
+body{
+    background-color: white;
+    
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+
+  
+
+    
+    .meniu{
+        background-color: rgb(97, 74, 74);
+        height: 20px;
+        font-size: 17px;
+        font-weight: bolder;
+        
+
+        .meniuListi{
+            display: flex;
+            margin-left: 450px;
+            margin-top: 5px;
+
+            .meniuListiItem{
+                margin-left: 20px;
+                color: black;
+
+
+
+            }
+        }
+    }
+
+    .banner{
+        display: flex;
+
+        .banner1{
+            width: 450px;
+            margin-top: 10px;
+
+            img{
+                width: 450px;
+            }
+        }
+
+  
+
+
+}
