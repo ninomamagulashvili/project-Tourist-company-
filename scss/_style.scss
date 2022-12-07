@@ -1,50 +1,96 @@
 body{
     background-color: white;
-    
 }
 
 .container{
-    width: 100%;
+    width: 1029px;
     margin: 0 auto;
 
-  
 
-    
-    .meniu{
-        background-color: rgb(97, 74, 74);
-        height: 20px;
-        font-size: 17px;
-        font-weight: bolder;
+    .banner{
+        width: 70%;
+        display: block;
+        margin: 0 auto;
         
+        .banner1{
+        
+            border: 0.5px solid rgb(168, 160, 160);
+            border-radius: 9px;
+            padding: 3px;   
+            
+        }
+    }
+    .banner1:hover{
+        border: 1.5px solid rgb(107, 107, 120);
 
-        .meniuListi{
-            display: flex;
-            margin-left: 450px;
-            margin-top: 5px;
 
-            .meniuListiItem{
-                margin-left: 20px;
-                color: black;
+    }
+   
 
+}
 
+.meniu{
+    width: 80%;
+    margin: 0 auto;
 
-            }
+    .meniuListi{
+        font-size:15px;
+ position: fixed;
+ left: 700px;
+ top: 15px;
+ transform:translate(-50%, -50%);
+
+        .meniuListiItem{
+            display: inline-block;
+            font-size: small;
+            margin-left: 20px;
+            margin-top:15px;
+
+            
         }
     }
 
-    .banner{
-        display: flex;
+    .meniuListiItem:hover{
+    
+            border: 1.5px solid rgb(107, 107, 120);
+    }
 
-        .banner1{
-            width: 450px;
-            margin-top: 10px;
+    // .slogan{
 
-            img{
-                width: 450px;
-            }
+    //     background-color: yellowgreen;
+
+    //     .slogan1{
+    //         font-size:15px;
+    //         position: fixed;
+    //         left: 630px;
+    //         top: 215px;
+    //         transform:translate(-50%, -50%);
+    //         background-color: grey;
+    //         font-size:small;
+
+    //     }
+    // }
+
+
+    .image{
+
+        .imageItem{
+            font-size:15px;
+              position: fixed;
+             left: 630px;
+             top: 215px;
+             transform:translate(-50%, -50%);
+        
+
+        .imageItem1{
+            font-size:15px;
+              position: fixed;
+             left: 630px;
+             top: 345px;
+             transform:translate(-50%, -50%);
         }
-
-  
+    }
+    }
 
 
 }
